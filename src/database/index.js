@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const connectToDb = async () => {
-    const url = 'mongodb+srv://yashheda5:AKr8jpZrLxZpfaf1@cluster0.twhk8.mongodb.net/';  // Replace with your database name
+    const url = 'mongodb://localhost:27017/Um';  // Replace with your database name
 
     try {
         await mongoose.connect(url, {
